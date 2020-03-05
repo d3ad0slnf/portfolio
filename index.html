@@ -10,7 +10,9 @@
   <body>
     <header class="page-header">
       <div class="container">
-        kshanance@gmail.com
+        <a href="mailto:kshanance@gmail.com" class="header-email">kshanance@gmail.com</a>
+        <a href="tel:+79613236990" class="header-phone">+7 961 323 69 90</a>
+        
 
       </div>
     </header>
@@ -25,28 +27,47 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+          <figure class="user-image">
+            <img src="files/avatar.png" width="300">
+          </figure>
       <h3>Пара слов о себе</h3>
       <p>Привет, я Иван Закутний. Я начинающий веб-разработчик и в данный
         момент изучаю весь стэк начальных технологий которые нужны для 
         того чтобы гордо назваться junior web developer. О как!
-        На самом деле мои планы и амбиции выходят не только за рамки уровня джуна,
-        но и за рамки веба, но об этом не скоро и как нибудь совсем в другой раз!
+        На самом деле мои планы и амбиции в IT выходят за пределы web разработки, 
+        но об этом не скоро и как нибудь совсем в другой раз!
+
+        Этот сайт я собираю по урокам <a href="https://htmlacademy.ru/">html-academy.</a>
       </p>
       <h3>Чем могу быть полезен</h3>
-      <p>В данный момент я только учусь, изучаю язык разметки, стили, потом 
-        буду учиться JavaScript. Сейчас я могу вам быть полезен только в качестве 
+      <p>В данный момент я только учусь, изучаю минимум миниморум, т.е. базовый стек:
+        HTML, CSS, JavaScript. Сейчас я могу вам быть полезен только в качестве 
         приятеля - собеседника, ну или в качестве ученика слушателя, а что? А вдруг!
       </p>
+
+          <div class="skills">
+            <h3>Мои навыки</h3>
+                <dl class="skills-list">
+                  <dt class="skill-html">HTML</dt>
+                  <dd class="level"><div style="width:60%;">60%</div></dd>
+                  <dt class="skill-css">CSS</dt>
+                  <dd class="level"><div style="width:40%;">40%</div></dd>
+
+                </dl>
+          </div>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+          <figure class="project-image">
+            <img src="files/project.jpg" width="928" height="536" alt="Сайт инструктора Кекса">
+          </figure>
+    
       <h3>Сайт инструктора Кекса</h3>
-      <p>Небольшой лендинг о школе для начинающих.</p>
-
+      <p>Мини лендинг из уроков о самых азах верстки</p>
+          <a class="button" href="source/keks-site/index.html">Открыть страницу</a>
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
       </div>
@@ -54,8 +75,8 @@
 
     <footer class="page-footer">
       <div class="container">
-      <p>Вы можете связаться со мной в телеграмме: https://t.me/mothereyelessvoid </p>
-      <p>Или по электронной почте: kshanance@gmail.com</p>
+        <a href="mailto:kshanance@gmail.com" class="footer-email">kshanance@gmail.com</a>
+        <a href="tel:+79613236990" class="footer-phone">+7 961 323 69 90</a>
       </div>
     </footer>
   </body>
