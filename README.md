@@ -1,1 +1,1 @@
-my training ground, fist website
+my training ground, first website
